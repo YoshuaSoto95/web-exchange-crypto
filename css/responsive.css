@@ -1,0 +1,112 @@
+@media (max-width: 1110px) {
+    .menu,
+    .menu .cta-action{
+        display: none;
+    }
+
+    .toggle_btn {
+        display: block;
+    }
+}
+
+@media (max-width: 920px) {
+    .trade .container-trade,
+    .support .container-support{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 4rem 2rem;
+    }
+
+    .contact .container-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 4rem 2rem;
+    }
+
+    .futures .container-futures {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        padding: 4rem 2rem;
+    }
+
+    .trade .container-trade .container-text,
+    .futures .container-futures .container-text,
+    .support .container-support .container-text,
+    .contact .container-contact .container-text {
+        width: 100%;
+    }
+
+    .trade .container-trade .container-img,
+    .futures .container-futures .container-img,
+    .support .container-support .container-img,
+    .contact .container-contact .container-img {
+        width: 70%;
+    }
+
+    .contact .container-contact .form {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 640px) {
+    .header {
+        padding: 2rem;
+    }
+
+    .dropdown_menu {
+        top: 110px;
+        padding: 4rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about,
+    .futures .container-futures,
+    .support .container-support,
+    .contact .container-contact {
+        padding: 4rem 2rem;
+    }
+
+    .container-hero {
+        padding: 12rem 2rem 4rem 2rem;
+        height: auto;
+    }
+
+    .container-hero .container-text .cta-options {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .trade .container-trade .container-text .btn a,
+    .futures .container-futures .container-text .btn a,
+    .support .container-support .container-text .btn a{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-hero .container-text .rrss {
+        justify-content: center;
+    }
+
+    .about .container-cards {
+        gap: 4rem;
+    }
+
+    .about .container-cards .card:first-child,
+    .about .container-cards .card:nth-child(2),
+    .about .container-cards .card:nth-child(3) {
+        height: auto;
+        width: auto;
+        padding: 1rem;
+    }
+}
+
+
+
+
