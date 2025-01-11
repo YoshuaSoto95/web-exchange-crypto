@@ -23,7 +23,7 @@
                     <a href="#support">Support</a>
                     <a href="#contact">Contact</a>
                     <div class="cta-action">
-                        <a href="">Login</a>
+                        <a href="login.html">Login</a>
                     </div>
                 </nav>
                 <div class="toggle_btn">
@@ -39,7 +39,7 @@
                 <a href="#support">Support</a>
                 <a href="#contact">Contact</a>
                 <div class="cta-action-toggle">
-                    <a href="">Login</a>
+                    <a href="login.html">Login</a>
                 </div>
             </nav>
         </div>
@@ -149,13 +149,14 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti natus commodi placeat dolorem quasi iure nesciunt, dolor, assumenda consectetur architecto exercitationem consequuntur aliquam voluptates accusamus.</p>
             </div>
             <div class="form">
-                <form action="" method="get">
+                <form id="contactForm" action="" method="get">
                     <h2>Contact</h2>
                     <input type="text" name="name" placeholder="Name" required>
                     <input type="text" name="last-name" placeholder="Last Name" required>
                     <input type="email" name="email" placeholder="Email" required>
-                    <textarea name="message" id="" placeholder="Your Message Here" required></textarea>
-                    <input type="button" value="Send">
+                    <textarea name="message" placeholder="Your Message Here" required></textarea>
+                    <button type="submit">Send</button>
+                    <div id="successMessage" class="success-message" style="display: none;">Datos Enviados</div>
                 </form>
             </div>
         </div>
